@@ -1,0 +1,22 @@
+# Общие исключения
+.DS_Store
+Thumbs.db
+*.log
+logs/
+*.swp
+*.tmp
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+
+# SoulSpell
+/target/
+/.idea/
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.bak
+*.old
